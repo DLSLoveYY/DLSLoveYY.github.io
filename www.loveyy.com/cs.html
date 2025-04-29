@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>CS赛事区 | LoveYY's Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cnm.sb_pc.css" />
+    <style>
+        header {
+            background-image: url("../img/navi1.jpg");
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+        }
+
+        header p {
+            font-size: 18px;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+        }
+
+        section {
+            padding: 40px 5%;
+            background-color: white;
+            margin: 20px auto;
+            max-width: 1000px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+
+        section h2 {
+            border-left: 6px solid #f35f5f;
+            padding-left: 10px;
+            color: #333;
+        }
+
+        .image-row {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .image-row img {
+            max-width: 100%;
+            width: 65%;
+            height: auto;
+            border-radius: 8px;
+            object-fit: cover;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        }
+
+        .btn-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #f35f5f;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        
+        .btn-link:hover {
+            background-color: #d64545;
+        }
+
+        .back-link {
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        .back-link a {
+            text-decoration: none;
+            font-size: 16px;
+            color: #f35f5f;
+            border: 1px solid #f35f5f;
+            padding: 10px 20px;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+
+        .back-link a:hover {
+            background-color: #f35f5f;
+            color: white;
+        }
+        
+        .btn-with-image {
+            display: flex;
+            align-items: center;
+            justify-content: center; /* ✅ 让整个组合居中 */
+            gap: 16px;
+            margin-top: 20px;
+        }
+        
+        .btn-with-image img {
+            width: 115px;
+            height: auto;
+            border-radius: 6px;
+            box-shadow: 0 0 6px rgba(0,0,0,0.1);
+        }
+        
+        .btn-with-image .btn-link {
+            margin: 0; /* ✅ 移除按钮默认的上下外边距 */
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CS赛事区</h1>
+    <p>发送他们房子！</p>
+</header>
+
+<!-- 模块1：斗鱼直播间 -->
+<section>
+    <h2>玩机器斗鱼6657直播间</h2>
+            <div class="image-row">
+                <img src="../img/cs.jpg" alt="玩机器">
+            </div>
+    <a class="btn-link" href="https://www.douyu.com/6657" target="_blank">前往直播间</a>
+</section>
+
+<!-- 模块2：个人主队 -->
+<section>
+    <h2>个人主队</h2>
+    <p><strong>🐝🐝🐝Team Vitality!🐝🐝🐝</strong></p>
+            <div class="image-row">
+                <img src="../img/vitality1.jpg" alt="小蜜蜂捧杯1">
+            </div>
+</section>
+
+<!-- 模块3：近期比赛 -->
+<section>
+    <h2>近期比赛</h2>
+
+    <div class="btn-with-image">
+        <img src="../img/hltv.jpg" alt="HLTV 截图">
+        <a class="btn-link" href="https://www.hltv.org/" target="_blank">前往 HLTV 页面</a>
+    </div>
+</section>
+
+
+
+<div class="back-link">
+    <a href="../index.html">← 返回主页</a>
+</div>
+
+</body>
+</html>
